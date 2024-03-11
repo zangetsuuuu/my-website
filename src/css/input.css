@@ -177,5 +177,9 @@
 
 body {
     font-family: "Aspekta", sans-serif;
-    @apply bg-white;
+    @apply bg-white text-black;
+}
+
+.navbar-fixed {
+    @apply fixed z-[999] backdrop-filter backdrop-blur-lg border-b border-gray border-opacity-50 bg-opacity-30 transition-opacity ease-in-out duration-300;
 }
