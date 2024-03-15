@@ -6,10 +6,10 @@ window.onscroll = function() {
 
     if (window.scrollY > fixedNav) {
         header.classList.add('navbar-fixed');
-        offcanvas.classList.add('offcanvas-fixed');
+        offcanvas.classList.add('offcanvas-style');
     } else {
         header.classList.remove('navbar-fixed');
-        offcanvas.classList.remove('offcanvas-fixed');
+        offcanvas.classList.remove('offcanvas-style');
     }
 };
 
