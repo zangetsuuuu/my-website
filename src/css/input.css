@@ -184,10 +184,10 @@ body {
     @apply fixed z-[999] backdrop-filter backdrop-blur-lg border-b border-gray border-opacity-50 bg-opacity-30 transition-opacity ease-in-out duration-300;
 }
 
-.offcanvas-fixed {
-    @apply fixed z-[999] border-b border-gray border-opacity-50 bg-opacity-90 transition-opacity ease-in-out duration-300;
+.offcanvas-style {
+    @apply z-[999] border-y border-gray border-opacity-50 bg-opacity-75;
 }
-  
+
 .hamburger svg {
     /* The size of the SVG defines the overall size */
     height: 3em;
