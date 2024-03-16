@@ -177,7 +177,7 @@
 
 body {
     font-family: "Aspekta", sans-serif;
-    @apply bg-white text-black;
+    @apply bg-white text-black selection:bg-black selection:text-white;
 }
 
 .navbar-fixed {
